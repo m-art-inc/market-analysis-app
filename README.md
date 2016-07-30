@@ -1,6 +1,6 @@
 # cookie-stand
 
-This is the initial (class10) part of the 3rd project for Code Fellows 201.
+This is the (class10) part of the 3rd project for Code Fellows 201.
 
 
 ## License
