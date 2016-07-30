@@ -3,7 +3,7 @@ var imageTracker = function (name, source) {
   this.imageSource = source;
   this.upVotes = 0;
   this.name = name;
-}
+};
 
 var imageOptions = [
   new imageTracker("Banana", "images/banana.jpg"),
@@ -23,6 +23,7 @@ var imageOptions = [
   new imageTracker("Wine_Glass", "images/wine_glass.jpg"),
   */
 ];
+
 document.getElementById("image-container").addEventListener("click", recordClick);
 
 // var pickedImages = []; // This is our memory - tracks which images we have shown
@@ -79,6 +80,7 @@ function checkVotes() {
 
         parentEl.appendChild(votesList);
         document.getElementById('image-container').removeEventListener("click", recordClick);
+        drawChart();
     }
 }
 
