@@ -12,7 +12,8 @@ var imageOptions = [
   new imageTracker("Chair", "images/chair.jpg"),
   new imageTracker("Cthulhu", "images/cthulhu.jpg"),
   new imageTracker("Dragon", "images/dragon.jpg"),
-  /*new imageTracker("Pen", "images/pen.jpg"),
+  /*
+  new imageTracker("Pen", "images/pen.jpg"),
   new imageTracker("Scissor", "images/scissors.jpg"),
   new imageTracker("Shark", "images/shark.jpg"),
   new imageTracker("Sweep", "images/sweep.jpg"),
