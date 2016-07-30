@@ -1,0 +1,18 @@
+body{
+  font-family: Times, serif;
+  background-color: #67c09d;
+}
+h1{
+  color: #ffffff;
+}
+
+#image-container{
+  background-color: #ffffff;
+}
+img {
+  width: 200px;
+  height: auto;
+}
+#chart-display{
+  background-color: #ffffff;
+}

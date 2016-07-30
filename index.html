@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html>
-<head>
-     <title>MArket Analysis Random Image</title>
-     <script src="app.js"></script>
-     <link rel="stylesheet" href="css/layout.css">
-     <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-  <section>
+  <head>
+    <script type="text/javascript" src="js/canvasjs.min.js"></script>
+    <script type="text/javascript" src="js/chart.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+
+  </head>
+  <body>
+    <section>
+      <h1>Welcome to Bus-Mall</h1>
+      <p>Please choose the image that you are more likely to buy:</p>
+    </section>
+
+    <section>
       <div id="image-container">
-          <img id="image1">
-          <img id="image2">
-          <img id="image3">
+        <div><img id="image1"></div>
+        <div><img id="image2"></div>
+        <div><img id="image3"></div>
       </div>
-  </section>
-     <img src="images/holder.jpg" id="imageHolder" width="450" height="320" alt="Some Random Image">
-</body>
+    </section>
+
+
+      <section>
+        <div id="voteDisplay"></div>
+    </section>
+
+    <script type="text/javascript" src="js/app2.js">
+
+    </script>
+  </body>
 </html>
