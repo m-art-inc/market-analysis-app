@@ -2,17 +2,24 @@ body{
   font-family: Times, serif;
   background-color: #67c09d;
 }
-h1{
+
+#main-header{
   color: #ffffff;
 }
 
+h1{
+  color: #000000;
+}
+
 #image-container{
-  background-color: #ffffff;
+  background-color: #000000;
 }
-img {
-  width: 200px;
-  height: auto;
-}
+
 #chart-display{
   background-color: #ffffff;
+}
+
+#voteDisplay{
+  background-color: #ffffff;
+  color: #67c09d;
 }

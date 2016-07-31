@@ -24,21 +24,15 @@ var imageOptions = [
 ];
 document.getElementById("image-container").addEventListener("click", recordClick);
 
-// var pickedImages = []; // This is our memory - tracks which images we have shown
-// document.getElementById("image1").addEventListener("click", recordClick);
-// document.getElementById("image2").addEventListener("click", recordClick);
-// document.getElementById("image3").addEventListener("click", recordClick);
-
-
 function getThreeImages() {
-  pickedImages = []; // Empty this so that we can track 3 new images
+  pickedImages = [];
   for (var imageID = 1; imageID <= 3; imageID++) {
     do { // Get a random index value for our image
       var index = Math.floor(Math.random() * 6);
-    } while (pickedImages.indexOf(index) >= 0); // keep trying until it's unique
-    var source = imageOptions[index].imageSource; // Get the source for the image
-    document.getElementById("image"+imageID).src = source; // update the image with the new source
-    pickedImages.push(index); // add the image location to our memory for later use
+    } while (pickedImages.indexOf(index) >= 0);
+    var source = imageOptions[index].imageSource;
+    document.getElementById("image"+imageID).src = source;
+    pickedImages.push(index); 
   }
 }
 
