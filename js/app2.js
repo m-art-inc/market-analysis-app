@@ -32,7 +32,7 @@ function getThreeImages() {
     } while (pickedImages.indexOf(index) >= 0);
     var source = imageOptions[index].imageSource;
     document.getElementById("image"+imageID).src = source;
-    pickedImages.push(index); 
+    pickedImages.push(index);
   }
 }
 
@@ -54,7 +54,7 @@ function checkVotes() {
         var el = document.createElement('div');
         var elH1 = document.createElement('h1');
         el.className = "totalVotes";
-        el.innerText = "You have reached 6 votes. This are your results:";
+        el.innerText = "You have reached 6 votes. These are your results:";
         var parentEl = document.getElementById('voteDisplay');
         console.log("Votes reached 6");
 
