@@ -1,13 +1,16 @@
 body{
-  font-family: Times, serif;
-  background-color: #67c09d;
+font-family: 'Poiret One', cursive;
+background-color: #67c09d;
 }
 
 #main-header{
+  font-family: 'Lobster', cursive;
   color: #ffffff;
+  font-size: 40px;
 }
 
 h1{
+
   color: #000000;
 }
 
@@ -17,9 +20,15 @@ h1{
 
 #chart-display{
   background-color: #ffffff;
+
 }
 
 #voteDisplay{
   background-color: #ffffff;
   color: #67c09d;
+  border: 2px solid grey;
+  box-sizing: border-box;
+}
+ul, li{
+  list-style: none;
 }
