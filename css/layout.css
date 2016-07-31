@@ -11,14 +11,14 @@ p{
   text-align: center;
   display: flex;
   width: 80%;
-  height: 350px;
+  height: auto;
 }
 
 
 
 #image1, #image2, #image3{
-  width: 33%;
-  height: 33%;
+  width: 100%;
+  height: auto;
   box-sizing: border-box;
   border: 2px solid red;
 }
