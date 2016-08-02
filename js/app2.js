@@ -61,7 +61,7 @@ function checkVotes() {
         var el = document.createElement('div');
         var elH1 = document.createElement('h1');
         el.className = "totalVotes";
-        el.innerText = "You have reached 15 votes. These are your results:";
+        el.innerText = "You have reached 15 votes.";
         var parentEl = document.getElementById('voteDisplay');
         console.log("Votes reached 15");
 
