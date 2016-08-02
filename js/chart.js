@@ -4,11 +4,7 @@ var chart;
 
 function drawChart() {
 	var fruitInfo = [];
-<<<<<<< HEAD
 
-=======
-	
->>>>>>> 14cd8cc141612e3e8d8ab7c14ca0f181217feaf0
 	for (var i = 0; i < imageOptions.length; i++) {
 		var tempObj =	{label: imageOptions[i].name, y: imageOptions[i].upVotes};
 
@@ -16,13 +12,7 @@ function drawChart() {
 
 	}
 	console.log(fruitInfo);
-<<<<<<< HEAD
 
-
-=======
-	
-	
->>>>>>> 14cd8cc141612e3e8d8ab7c14ca0f181217feaf0
 		// {label: imageOptions[0].name, y: imageOptions[0].upVotes},
 		// {label: imageOptions[1].name, y: imageOptions[1].upVotes},
 		// {label: imageOptions[2].name, y: imageOptions[2].upVotes},
@@ -49,11 +39,9 @@ function drawChart() {
 	chart.render();
 }
 
-<<<<<<< HEAD
-=======
 // window.addEventListener("load", drawChart);
 
->>>>>>> 14cd8cc141612e3e8d8ab7c14ca0f181217feaf0
+
 
 /*var SampleConstructor = function(){
 this.name = "hello";
