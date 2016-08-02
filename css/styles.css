@@ -18,9 +18,11 @@ h1{
   background-color: #000000;
 }
 
-#chart-display{
+#chartDisplay{
   background-color: #ffffff;
-
+  color: #67c09d;
+  border: 2px solid grey;
+  box-sizing: border-box;
 }
 
 #voteDisplay{
