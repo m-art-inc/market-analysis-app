@@ -70,11 +70,6 @@ function checkVotes() {
         var votesList = document.createElement('ul');
         votesList.className = "votesList";
         for (var i = 0; i < imageOptions.length; i++) {
-<<<<<<< HEAD
-
-=======
-            
->>>>>>> 14cd8cc141612e3e8d8ab7c14ca0f181217feaf0
                 var voteLi = document.createElement('li');
                 voteLi.innerText = imageOptions[i].name + ": " + imageOptions[i].upVotes;
                 votesList.appendChild(voteLi);
