@@ -1,22 +1,35 @@
-h1{
-  margin: 20px;
-  text-align: center;
-}
-p{
-  margin: 50px;
+p,h1, h2, h3{
   text-align: center;
 }
 
 #image-container {
   margin: 0 auto;
+  text-align: center;
   display: flex;
   width: 80%;
-  height: 500px;
+  height: auto;
+}
+
+
+
+#image1, #image2, #image3{
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  border: 2px solid grey;
 }
 
 #chartDisplay{
   margin: 0 auto;
   display: flex;
+  width: 80%;
+  height: 300px;
+}
+#voteDisplay{
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  display: block;
   width: 80%;
   height: 300px;
 }
