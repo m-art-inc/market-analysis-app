@@ -18,8 +18,8 @@ var imageOptions = [
   new imageTracker("Sweep", "images/sweep.jpg"),
   new imageTracker("Unicorn", "images/unicorn.jpg"),
   new imageTracker("Usb", "images/usb.jpg"),
-  new imageTracker("Water_Can", "images/water_can.jpg"),
-  new imageTracker("Wine_Glass", "images/wine_glass.jpg"),
+  new imageTracker("Water Can", "images/water_can.jpg"),
+  new imageTracker("Wine Glass", "images/wine_glass.jpg"),
 
 ];
 
@@ -61,7 +61,7 @@ function checkVotes() {
         var el = document.createElement('div');
         var elH1 = document.createElement('h1');
         el.className = "totalVotes";
-        el.innerText = "You have reached 15 votes. This are your results:";
+        el.innerText = "You have reached 15 votes. These are your results:";
         var parentEl = document.getElementById('voteDisplay');
         console.log("Votes reached 15");
 
