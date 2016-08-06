@@ -2,6 +2,12 @@ p,h1, h2, h3{
   text-align: center;
 }
 
+.logo{
+  margin: 0 auto;
+  height: 250px;
+  width: 250px;
+}
+
 #image-container {
   margin: 0 auto;
   text-align: center;
@@ -10,7 +16,14 @@ p,h1, h2, h3{
   height: auto;
 }
 
-
+.instructions{
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 2px solid grey;
+}
 
 #image1, #image2, #image3{
   width: 100%;
