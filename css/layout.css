@@ -1,3 +1,6 @@
+body{
+  padding-top: 20px;
+}
 p,h1, h2, h3{
   text-align: center;
 }
@@ -6,6 +9,8 @@ p,h1, h2, h3{
   margin: 0 auto;
   height: 250px;
   width: 250px;
+  background-color: #67c09d;
+  border-radius: 150px;
 }
 
 #image-container {
@@ -14,22 +19,29 @@ p,h1, h2, h3{
   display: flex;
   width: 80%;
   height: auto;
+  box-sizing: border-box;
 }
 
 .instructions{
   margin: 0 auto;
-  width: 80%;
+  width: 50%;
   height: auto;
-  padding: 20px;
   box-sizing: border-box;
-  border: 2px solid grey;
+  border: 3px solid #ffffff;
+  -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+  animation: mymove 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+  @-webkit-keyframes mymove {
+    50% {border-radius: 60px;}
 }
 
 #image1, #image2, #image3{
   width: 100%;
   height: auto;
   box-sizing: border-box;
-  border: 2px solid grey;
+  border: 2px solid #67c09d;
 }
 
 #chartDisplay{
