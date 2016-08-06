@@ -11,6 +11,7 @@ p,h1, h2, h3{
   width: 250px;
   background-color: #67c09d;
   border-radius: 150px;
+  border: 2px solid #ffffff;
 }
 
 #image-container {
@@ -27,7 +28,7 @@ p,h1, h2, h3{
   width: 50%;
   height: auto;
   box-sizing: border-box;
-  border: 3px solid #ffffff;
+  border: 3px dashed #ffffff;
   -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
   animation: mymove 5s infinite;
 }
@@ -56,5 +57,6 @@ p,h1, h2, h3{
   padding-top: 20px;
   display: block;
   width: 80%;
-  height: 400px;
+  height: auto;
+  padding-bottom: 10px;
 }

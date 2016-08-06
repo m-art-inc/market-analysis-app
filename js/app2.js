@@ -82,3 +82,9 @@ function checkVotes() {
 }
 
 getThreeImages();
+
+//****************************************************************
+function clear()
+{
+   button.document.getElementById("voteDisplay, ").reset();
+}
