@@ -95,3 +95,12 @@ function greetUser() {
 }
 
 window.addEventListener("load", greetUser);
+
+// reset all data
+
+function resetChart(){
+  location.reload();
+}
+
+var reloadButton = document.getElementById('chartReload');
+reloadButton.addEventListener('click', resetChart);
