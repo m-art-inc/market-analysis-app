@@ -82,3 +82,25 @@ function checkVotes() {
 }
 
 getThreeImages();
+
+function greetUser() {
+  if (localStorage.getItem("username") == null) {
+    var username = prompt("Welcome to Bus Mall Vote Tracker!", "Enter Your Name");
+    localStorage.setItem("username", username);
+    document.getElementById("greeting").innerText = "Welcome "+username;
+  } else {
+    var username = localStorage.getItem("username");
+    document.getElementById("greeting").innerText = "Welcome Back "+username;
+  }
+}
+
+window.addEventListener("load", greetUser);
+
+// reset all data
+
+function resetChart(){
+  location.reload();
+}
+
+var reloadButton = document.getElementById('chartReload');
+reloadButton.addEventListener('click', resetChart);
