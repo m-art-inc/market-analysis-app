@@ -9,10 +9,13 @@ background-color: #67c09d;
   font-size: 40px;
 }
 
-h1{
+.instructions{
+  color: red;
+  background-color: #ffffff;
 
-  color: #000000;
 }
+
+
 
 #image-container{
   background-color: #000000;
