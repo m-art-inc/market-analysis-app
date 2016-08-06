@@ -5,12 +5,17 @@ var chart;
 function drawChart() {
 	var fruitInfo = [];
 	
-	for (var i = 0; i < imageOptions.length; i++) {
-		var tempObj =	{label: imageOptions[i].name, y: imageOptions[i].upVotes};
+	if (localStorage.getItem('fruitInfo') == null) {
+		for (var i = 0; i < imageOptions.length; i++) {
+			var tempObj =	{label: imageOptions[i].name, y: imageOptions[i].upVotes};
 
-		fruitInfo.push(tempObj);
+			fruitInfo.push(tempObj);
+		}
+		localStorage.setItem("fruitInfo", JSON.stringify(fruitInfo));
+	} else {
+		fruitInfo = JSON.parse(localStorage.getItem('fruitInfo'));
 	}
-	localStorage.setItem("fruitInfo", JSON.stringify(fruitInfo));
+
 	console.log(fruitInfo);
 
 		// {label: imageOptions[0].name, y: imageOptions[0].upVotes},
