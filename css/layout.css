@@ -8,13 +8,13 @@ p, h1, h2, h3 {
     margin: 0 auto;
     height: 250px;
     width: 250px;
-    background-color: #67c09d;
+    background-color: #ffffff;
     border-radius: 150px;
-    border: 2px solid #ffffff;
+    border: 2px solid #67c09d;
 }
 
 .logo:hover{
-    background-color: #ffffff;
+    background-color: #67c09d;
 }
 
 #image-container {
@@ -71,7 +71,7 @@ p, h1, h2, h3 {
   padding: 20px;
   display: block;
   background-color: #67c09d;
-  width: 35%;
+  width: 30%;
 }
 
 #click{
@@ -80,7 +80,7 @@ p, h1, h2, h3 {
   display: block;
   background-color: #67c09d;
   color: #ffffff;
-  width: 25%;
+  width: 40%;
 }
 
 .tilt, img {
