@@ -39,9 +39,12 @@ background-size: 13px, 29px, 37px, 53px;
   border-right: 2px solid #67c09d;
   box-sizing: border-box;
 }
-ul, li{
-  list-style: none;
-  margin: 5px;
+
+td, tr{
+  border: 1px solid #67c09d;
+  margin: 0 auto;
+  padding: 5px;
+  box-sizing: border-box;
 
 }
 .button{
@@ -62,4 +65,5 @@ ul, li{
 
 #chartReload:hover{
     background-color: #ef4136;
+    transition: .5s ease-in ;
 }
