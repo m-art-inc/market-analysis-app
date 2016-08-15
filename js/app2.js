@@ -60,22 +60,22 @@ function checkVotes() {
     if (totalVotes == 15) {
         var el = document.createElement('div');
         var elH1 = document.createElement('h1');
-        el.className = "totalVotes";
-        el.innerText = "You have reached 15 votes.";
+        el.getElementsByClassName('totalVotes');
+        el.innerHTML = "You have reached "+totalVotes+" votes.";
         var parentEl = document.getElementById('voteDisplay');
         console.log("Votes reached 15");
 
         parentEl.appendChild(elH1).appendChild(el);
 
-        var votesList = document.createElement('ul');
-        votesList.className = "votesList";
+        var votesTable = document.createElement('th');
+        votesTable.className = "votesTable";
         for (var i = 0; i < imageOptions.length; i++) {
-                var voteLi = document.createElement('li');
-                voteLi.innerText = imageOptions[i].name + ": " + imageOptions[i].upVotes;
-                votesList.appendChild(voteLi);
+                var voteTd = document.createElement('td');
+                voteTd.innerText = imageOptions[i].name + ": " + imageOptions[i].upVotes;
+                votesTable.appendChild(voteTd);
         }
 
-        parentEl.appendChild(votesList);
+        parentEl.appendChild(votesTable);
         document.getElementById('image-container').removeEventListener("click", recordClick);
         drawChart();
     }
