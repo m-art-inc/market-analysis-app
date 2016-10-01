@@ -1,19 +1,58 @@
 <!DOCTYPE html>
 <html>
-<head>
-     <title>MArket Analysis Random Image</title>
-     <script src="app.js"></script>
-     <link rel="stylesheet" href="css/layout.css">
-     <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-  <section>
-      <div id="image-container">
-          <img id="image1">
-          <img id="image2">
-          <img id="image3">
+  <head>
+    <script type="text/javascript" src="js/canvasjs.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link href='https://fonts.googleapis.com/css?family=Lobster|Poiret+One' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body>
+    <section>
+      <div class="logo">
+        <img src="images/busmall.svg" alt="logo" />
       </div>
-  </section>
-     <img src="images/holder.jpg" id="imageHolder" width="450" height="320" alt="Some Random Image">
-</body>
+    </section>
+
+    <section>
+      <h1 id="main-header">Shop at Bus-Mall!</h1>
+      <h2 id="greeting"></h2>
+      <br/><br/>
+      <div class="instructions">
+        <h2>Instructions:</h2>
+        <p>From the 3 images below, choose the product that you are more likely to buy. The images will randomized 15 times and your results will display below.</p>
+      </div>
+      <br>
+      <br>
+      <h2 id="click">Click on any of the images below to vote:</h2>
+      <br>
+    </section>
+
+    <section>
+      <div id="image-container">
+        <div class="tilt"><img id="image1"></div>
+        <div class="tilt"><img id="image2"></div>
+        <div class="tilt"><img id="image3"></div>
+      </div>
+    </section>
+
+    <section>
+        <div id="voteDisplay">
+          <div class="totalVotes"></div>
+          <div class="button">
+            <button id="chartReload">Reload Votes</button>
+          </div>
+        </div>
+    </section>
+
+    <section>
+      <div id="chartDisplay">
+      </div>
+    </section>
+
+    <script type="text/javascript" src="js/app2.js"></script>
+    <script type="text/javascript" src="js/chart.js"></script>
+
+    </script>
+  </body>
 </html>

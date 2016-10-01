@@ -1,0 +1,99 @@
+body {
+    padding-top: 20px;
+}
+p, h1, h2, h3 {
+    text-align: center;
+}
+.logo {
+    margin: 0 auto;
+    height: 250px;
+    width: 250px;
+    background-color: #ffffff;
+    border-radius: 150px;
+    border: 2px solid #67c09d;
+}
+
+.logo:hover{
+    background-color: #67c09d;
+}
+
+#image-container {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    width: 80%;
+    height: auto;
+    box-sizing: border-box;
+}
+.instructions {
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+    border: 3px dashed #67c09d;
+    -webkit-animation: mymove 5s infinite;
+    /* Chrome, Safari, Opera */
+    animation: mymove 10s infinite;
+}
+
+/* Chrome, Safari, Opera */
+
+@-webkit-keyframes mymove {
+    50% {
+        border-radius: 60px;
+    }
+}
+#image1, #image2, #image3 {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    border: 2px solid #67c09d;
+}
+#chartDisplay {
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
+    height: 400px;
+}
+#voteDisplay {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: block;
+    width: 80%;
+    height: 300px;
+    padding-bottom: 10px;
+}
+
+#greeting{
+  margin: 0 auto;
+  padding: 20px;
+  display: block;
+  background-color: #67c09d;
+  width: 30%;
+}
+
+#click{
+  margin: 0 auto;
+  padding: 20px;
+  display: block;
+  background-color: #67c09d;
+  color: #ffffff;
+  width: 40%;
+}
+
+.tilt, img {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.tilt:hover {
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
