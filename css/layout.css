@@ -25,6 +25,7 @@ p, h1, h2, h3 {
     height: auto;
     box-sizing: border-box;
 }
+
 .instructions {
     margin: 0 auto;
     padding: 20px;
@@ -49,12 +50,21 @@ p, h1, h2, h3 {
     height: auto;
     box-sizing: border-box;
     border: 2px solid #67c09d;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+
 }
 #chartDisplay {
     margin: 0 auto;
     display: flex;
     width: 80%;
     height: 400px;
+    -webkit-transition: opacity 2s ease-in;
+    -moz-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in;
 }
 #voteDisplay {
     text-align: center;
