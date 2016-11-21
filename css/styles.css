@@ -43,7 +43,7 @@ background-size: 13px, 29px, 37px, 53px;
 td, tr{
   border: 1px solid #67c09d;
   margin: 0 auto;
-  padding: 5px;
+  padding: 10px;
   box-sizing: border-box;
 
 }
@@ -51,6 +51,10 @@ td, tr{
     margin: 0 auto;
     padding: 20px;
     display: block;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
 }
 #chartReload{
     background-color: #67c09d;
