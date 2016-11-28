@@ -1,8 +1,8 @@
-# cookie-stand
+# Bus-Mall
 
-This is the initial (class12) part of the 3rd project for Code Fellows 201.
+This is a simple HTML, CSS and Javascript guessing web app game made at Code Fellows 201.
 
-
+** Canvas.js was used to graph the data. **
 ## License
 
 The MIT License (MIT)
